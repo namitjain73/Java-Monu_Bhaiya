@@ -19,12 +19,12 @@ public class Axis_Orbit {
 					break;
 				}
 				odd++;
-				if(max < odd) {
-					max = odd;
-					
-					s2 = s.substring((int)(axis - orbit) , (int)(axis + orbit));
-					System.out.println(s2);
-				}
+//				if(max < odd) {
+//					max = odd;
+//					
+//					s2 = s.substring((int)(axis - orbit) , (int)(axis + orbit));
+//					System.out.println(s2);
+//				}
 			}
 		}
 //		even
@@ -35,12 +35,12 @@ public class Axis_Orbit {
 					break;
 				}
 				even++;
-				if(max < even) {
-					max = even;
-					
-					s2 = s.substring((int)(axis - orbit) , (int)(axis + orbit));
-					System.out.println(s2);
-				}
+//				if(max < even) {
+//					max = even;
+//					
+//					s2 = s.substring((int)(axis - orbit) , (int)(axis + orbit));
+//					System.out.println(s2);
+//				}
 			}
 		}
 		System.out.println(s2);

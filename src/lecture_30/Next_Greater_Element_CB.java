@@ -9,6 +9,7 @@ public class Next_Greater_Element_CB {
 		Stack<Integer> st = new Stack<>();
 		int[] ans = new int[arr.length];
 		for(int i = arr.length-1 ; i >= 0 ; i--) {
+//			while(!st.empty() && arr[i] < arr[st.peek()]) { // for next smaller element
 			while(!st.empty() && arr[i] < arr[st.peek()]) {
 				ans[st.pop()] = arr[i];
 			}

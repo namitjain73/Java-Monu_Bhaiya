@@ -1,5 +1,4 @@
 package lecture_45;
-
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
@@ -17,8 +16,6 @@ public class IPO_leetcode {
 			arr[i][1] = profit[i];
 		}
 		System.out.println(IPO(arr,k,w));
-		
-
 	}
 	public static int IPO(int[][] arr , int k ,int w) {
 		Arrays.sort(arr , (a,b) -> Integer.compare(a[0],b[0]));
@@ -33,10 +30,8 @@ public class IPO_leetcode {
 			w += pq.poll()[1];
 			k--;
 		}
-		
 		while(k-- > 0 && !pq.isEmpty()) w += pq.poll()[1];
 		return w;
-		
 	} 
 
 }

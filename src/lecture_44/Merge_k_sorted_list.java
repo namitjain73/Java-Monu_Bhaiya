@@ -18,7 +18,7 @@ public class Merge_k_sorted_list {
 		
 	}
 	
-	public ListNode mergeKLists(ListNode[] lists) {
+	public static ListNode mergeKLists(ListNode[] lists) {
 		PriorityQueue<ListNode> pq= new PriorityQueue<>(new Comparator<>() {
 			@Override
 			public int compare(ListNode o1 , ListNode o2) {
@@ -41,7 +41,7 @@ public class Merge_k_sorted_list {
         		pq.add(r.next);
         	}
         }
-        temp.next;
+        return temp.next;
     }
 
 }

@@ -1,6 +1,6 @@
 package lecture_42;
 
-import lecture_37_nonlenear_datastructure.BinaryTree.Node;
+//import lecture_37_nonlenear_datastructure.BinaryTree.Node;
 
 public class Binary_Search_Tree {
 	

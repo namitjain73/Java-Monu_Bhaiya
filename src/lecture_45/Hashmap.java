@@ -6,7 +6,7 @@ public class Hashmap {
 //	1. HashMap
 //	2. LinkedHashMap
 //	3. TreeMap
-//	HashMap complete done every work in O(!)
+//	HashMap complete done every work in O(1)
 //	key value pair
 
 	public static void main(String[] args) {

@@ -17,8 +17,7 @@ public class Partition_in_array {
 	public static int Partition(int[] arr ,int si , int ei) {
 		int item = arr[ei];
 		int idx = si;
-//		for(int i = si ; i < ei ; i++) {
-		for(int i = si ; i <= ei ; i++) {
+		for(int i = si ; i < ei ; i++) {
 			if(arr[i] <= item) {
 				int temp = arr[i];
 				arr[i] = arr[idx] ; 
@@ -26,9 +25,9 @@ public class Partition_in_array {
 				idx++;
 			}
 		}
-//		int temp = arr[ei];
-//		arr[ei] = arr[idx];
-//		arr[idx] = temp;
+		int temp = arr[ei];
+		arr[ei] = arr[idx] ; 
+		arr[idx] = temp ;
 		return idx;
 	}
 

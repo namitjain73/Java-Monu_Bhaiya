@@ -28,7 +28,7 @@ public class mirror_in_tree {
 		    	if(root1.val != root2.val) return false;
 		    	
 		    	boolean left = Symmetric(root1.left , root2.right);
-		    	boolean right = Symeetric(root1.right , root2.left);
+		    	boolean right = Symmetric(root1.right , root2.left);
 		    	return left && right;
 		    }
 

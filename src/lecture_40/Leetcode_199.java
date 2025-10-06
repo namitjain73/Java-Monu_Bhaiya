@@ -35,8 +35,8 @@ public class Leetcode_199 {
 				
 			}
 			
-			rightView(root.right,curr_level+1);
-			rightView(root.left,curr_level+1);
+			rightView(root.right,curr_level+1,ll);
+			rightView(root.left,curr_level+1,ll);
 		}
 	}
 
